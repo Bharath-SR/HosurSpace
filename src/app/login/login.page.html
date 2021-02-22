@@ -1,7 +1,29 @@
-<ion-content  style=" --background: #1D3461;" class="Container">
-<div class="loginContainer">
- <div class="loginWrap">
+<ion-content style="--background: #1d3461">
+  <div class="flexbox-container">
+    <div class="logoContainer">
+      <img class="logoImage" src="../../assets/shapes.svg" >
+    </div>
+    <div class="loginContainer">
+      <h1 class="globalHeader">Login</h1>
+      <div class="formContainer">
+        <form>
+          <ion-item>
+            <ion-label> Email Id </ion-label>
+            <ion-input type="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label> Password </ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+          <p class="forgotPassword">Forgot Password ?</p>
+        </form>
+        <ion-button class="globalButton" expand="block">Login</ion-button>
+    <div class="optionalContainer">
+        <p> Don’t Have an account?</p>
+        <ion-button fill='clear' expand='block'>Create New Account</ion-button>
+    </div>  
+    </div>
 
- </div>
-</div>
+    </div>
+  </div>
 </ion-content>

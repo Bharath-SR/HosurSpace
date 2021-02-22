@@ -1,14 +1,41 @@
-.Container{
+.flexbox-container{
+    // height:50%;
+    // width:90%;
+    // background-color: aliceblue;
     display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+
+    
+}
+
+
+
+.logoContainer{
+    text-align: center;
+     
+
 }
 .loginContainer{
-    display:flex ;
-    height:50%;
-    width:100%;
-    background-color:white;
-    
+  border-radius: 10px;
+  max-width: 90%;
+  width: 90%;
+  margin: 0 auto;
+  height: 419px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 16px;
+   
 }
-.loginWrap{
-    padding-left: 10px;
-    
+.forgotPassword{
+    text-align: right;
+    font-weight: 800;
 }
+.optionalContainer{
+    text-align: center;
+}
+
+
